@@ -2,16 +2,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-  }
+}
   
     /* Убираем подчеркивание у всех ссылок */
 a {
-  text-decoration: none;
-  }
+    text-decoration: none;
+}
   
     /* Стилизация ссылок меню */
 .menu-link {
-     color:   cornflowerblue;
+    color: cornflowerblue;
     font-size: 16px;
     line-height: 20px;
 }
