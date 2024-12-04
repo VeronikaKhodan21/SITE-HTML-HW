@@ -1,28 +1,65 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Главная страница</title>
-  <link rel="stylesheet" href="C:\Users\veron\training\Веб-верстка HTML.CSS\first-site-html-hw1\style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="css\style.css">
+  <link rel ="stylesheet" href="css\styles.css">
 </head>
 
 
 <body>
-  <nav>
-    <ul>
-      <li><a class ="menu-link" href="/index.html">Главная</a></li>
-      <li><a class ="menu-link"href="/catalog/catalog.html">Каталог</a></li>
-      <li><a class ="menu-link"href="/contact.html">Контакты</a></li>
-    </ul>
-  </nav>
-  <h1>Главная страница</h1>
-  <p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam.</p>
-  <h2 class="section-heading">Добро пожаловать на сайт</h2>
-  <p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam.</p>
-  <p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam.</p>
-  <p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam.</p>
+    <class="header">
+    <div class="container">
+      <a href="/">
+        <img src="img/logo.png" alt="Логотип GrowBe">
+      </a>
+
+      <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Features</a>
+        <a href="#">Team</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div>
+          <h1>SEO & Digital
+            Marketing For Your
+            Website.</h1>
+          <p>Provide all kind of seo services and help to improve
+            seo ranking. Globally incubate standards.</p>
+          <div>
+            <button>Start Now</button>
+            <a href="#">Watch Video</a>
+          </div>
+        </div>
+        <img src="img/hero.png" alt="main image">
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="container">
+        <div class="partners__logos">
+          <a href="#"><img src="img/1.png" alt="logo-1"></a>
+          <a href="#"><img src="img/2.png" alt="logo-2"></a>
+          <a href="#"><img src="img/3.png" alt="logo-3"></a>
+          <a href="#"><img src="img/4.png" alt="logo-4"></a>
+          <a href="#"><img src="img/5.png" alt="logo-5"></a>
+          <a href="#"><img src="img/6.png" alt="logo-6"></a>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
