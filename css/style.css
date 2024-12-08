@@ -26,19 +26,41 @@ img {
   padding: 40px 0;
 }
 
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .navigation a {
   font-weight: 600;
   font-size: 14px;
+  padding: 10px;
+  margin-right: 24px;
+}
+
+.navigation a:last-child {
+  margin-right: 0;
 }
 
 .hero {
   padding: 44px 0 100px;
 }
 
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__left-side {
+  max-width: 556px;
+}
+
 h1 {
   font-weight: 700;
   font-size: 60px;
   line-height: 120%;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -66,6 +88,11 @@ button {
   color: #aaa;
 }
 
-.footer {
+.partners {
   padding: 100px 0;
+}
+
+.partners__logos {
+  display: flex;
+  justify-content: space-between;
 }
